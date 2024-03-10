@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-auto-rows: 50px auto;
+    grid-template-areas: "hd hd" "sd mn";
+    background-color: rgba(0, 0, 0, 0.897);
+    color: aliceblue;
+    min-width: 576px;
+    
+    
+    
+}
+main{
+    padding: 0.5em;
+    
+}
+img{
+    margin: 2em 3em 0 3.5em;
+}
+.box{
+    padding: 0.5em;
+}
+.black{
+    background-color: black;
+    color: lightgreen;
+    width: 250px;
+    display: inline-block;
+    min-height: 40px;
+    text-align: center;
+    position: relative;
+    left: 300px;
+   
+}
+
+.header{
+    grid-area: hd;
+    background-color: lightgreen;
+    
+    margin-top: 0.5em;
+    
+    
+    
+    
+  
+
+    
+}
+header{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    
+
+}
+
+.container{
+    grid-area: mn;
+}
+.sidebar{
+    grid-area: sd;
+    
+    background-color: rgba(119, 136, 153, 0.281); 
+
+}
+
+h1,h3{
+    color: lightgreen;
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.473);
+    margin: 1em;
+    padding: 0.5em;
+}
+.nowrap{
+    white-space: nowrap;
+}
+
+ul li{
+    list-style-position: inside;
+}
+.circle{
+    
+    border: 2px solid white;
+    width: 150px;
+    height: 10px;
+    background-image: linear-gradient(to left,lightgray,green);
+    
+    
+    position: relative;
+    left: 30px;
+}
+.none{
+    list-style-type: none;
+}
+
+.circle1{
+    background-color: lightgreen;
+
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+    
+}
+.circle2{
+    background-color: lightgreen;
+
+    border-radius: 50%;
+    padding: 0.2rem;
+    margin-right: 0.2rem;
+    color: black;
+    
+}
+.border{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    position: relative;
+    left: 110px;
+    margin-top: -10px;
+}
+
+.border1{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    position: relative;
+    left: 150px;
+    margin-top: -10px;
+}
+.border2{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    position: relative;
+    left: 225px;
+    margin-top: -10px;
+}
+.border3{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    position: relative;
+    left: 160px;
+    margin-top: -10px;
+}
+.border4{
+    border-bottom: 2px dotted white;
+    border-width: 0.2rem;
+    position: relative;
+    left: 130px;
+    margin-top: -10px;
+}
+.bold{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.bold1{
+    font-size: 1rem;
+    font-weight: 900;
+}
